@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid img, .grid iframe {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.grid img:hover, .grid iframe:hover {
+  transform: scale(1.05);
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  background: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #1E90FF;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FFD700;
+  color: #222;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
